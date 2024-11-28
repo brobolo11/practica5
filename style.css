@@ -1,0 +1,179 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 217, 174);
+    width: 60%;
+    padding: 40px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.izquierda {
+    margin-right: 10%;
+}
+
+.izquierda img {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.derecha{
+    margin-right: 12%;
+}
+
+.derecha p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.derecha input[type="text"],
+.derecha input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.derecha input[type="submit"] {
+    width: 80%;
+    margin-left: 13%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #7bd67e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.derecha input[type="submit"]:hover {
+    background-color: #45a049 !important;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(235, 187, 129);
+    padding: 10px 20px;
+    position: relative;
+    height: 7vh;
+}
+
+.encabezado header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.encabezado .botonAgregar {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #60b663;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.encabezado .botonAgregar:hover {
+    background-color: #45a049;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-left: 3.25%;
+}
+
+.carta {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.carta img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.carta .nombre,
+.carta .apellido {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.carta .acciones {
+    margin-top: 10px;
+}
+
+.carta .botonModificar,
+.carta .botonEliminar {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.carta .botonModificar {
+    background-color: #007BFF;
+    color: white;
+}
+
+.carta .botonModificar:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carta .botonEliminar {
+    color: black;
+    background-color: rgb(255, 65, 65);
+    cursor: pointer;
+}
+
+.carta .botonEliminar:hover {
+    background-color: rgb(172, 3, 3);
+}
+
+.botonModificar {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.botonModificar:hover {
+    color: darkblue;
+}
